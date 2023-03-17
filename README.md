@@ -53,7 +53,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- `<form>` element with radio button `<input>`
+- `<form>` element with radio and button `<input>`
 - CSS variables
 - JavaScript
 - Responsive design
@@ -73,5 +73,4 @@ Users should be able to:
 
 ## Author
 
-- Website - [rileydevdzn](https://rileydevdzn.webflow.io)
 - Frontend Mentor - [@devrileymk](https://www.frontendmentor.io/profile/devrileymk)
