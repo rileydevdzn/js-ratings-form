@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - FM-Interactive rating component</title>
-  <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8">
+    <title>Interactive Rating Component</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<form class="rating-card">
-  <div class="content-wrapper">
-    <div class="star-rating">
-      <img src="https://assets.codepen.io/3270335/FEM5-icon-star.svg" alt="orange star">
-    </div>
-    <div class="card-txt">
-      <div class="card-hd">
-        <h1>How did we do?</h1>
-        <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-      </div>
-      <fieldset class="rating-wrapper">
-        <div class="rating-option">
-          <input type="radio" id="1-star" name="rating" value="1">
-          <label for="1-star">1</label>
+  <body>
+    <main>
+      <article>
+        <div class="rating-form">
+          <div class="star-img-wrapper">
+            <img class="star-img" src="./ratingcmp-icon-star.svg"/>
+          </div>
+          <h1>How did we do?</h1>
+          <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+          <fieldset>
+            <div class="rating-option">
+              <input type="radio" name="rating" class="ratingbtn" id="rating1" value="1"/>
+              <label for="rating1">1</label>
+            </div>
+            <div class="rating-option">
+              <input type="radio" name="rating" class="ratingbtn" id="rating2" value="2"/>
+              <label for="rating2">2</label>
+            </div>
+            <div class="rating-option">
+              <input type="radio" name="rating" class="ratingbtn" id="rating3" value="3"/>
+              <label for="rating3">3</label>
+            </div>
+            <div class="rating-option">
+              <input type="radio" name="rating" class="ratingbtn" id="rating4" value="4"/>
+              <label for="rating4">4</label>
+            </div>
+            <div class="rating-option">
+              <input type="radio" name="rating" class="ratingbtn" id="rating5" value="5"/>
+              <label for="rating5">5</label>
+            </div>
+          </fieldset>
+          <button type="button" id="submitbtn">Submit</button>
         </div>
-        <div class="rating-option">
-          <input type="radio" id="2-star" name="rating" value="2">
-          <label for="2-star">2</label>
+
+        <div class="thankyou-msg" id="thanks">
+          <img class="thankyou-img" src="./ratingcmp-illustration-thank-you.svg"/>
+          <div class="confirm-selection">
+            <p id="selected"></p>
+          </div>
+          <h2>Thank you!</h2>
+          <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
         </div>
-        <div class="rating-option">
-          <input type="radio" id="3-star" name="rating" value="3">
-          <label for="3-star">3</label>
-        </div>
-        <div class="rating-option">
-          <input type="radio" id="4-star" name="rating" value="4">
-          <label for="4-star">4</label>
-        </div>
-        <div class="rating-option">
-          <input type="radio" id="5-star" name="rating" value="5">
-          <label for="5-star">5</label>  
-        </div>
-      </fieldset>
-      
-      <button type="submit" class="rating-submit" id="rating-submit-btn">Submit</button>
-    </div>
-  </div>
-</form>
-<!-- partial -->
-  
-</body>
+      </article>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
 </html>
