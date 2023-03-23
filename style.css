@@ -41,20 +41,20 @@ main {
 }
 
 article {
+  width: clamp(20.4rem, 18.56rem + 8vw, 25.75rem);
+  min-height: 22.5rem;
   position: relative;
 }
 
 .rating-form, .thankyou-msg {
-  width: clamp(327px, 297px + 8vw, 412px);
-  height: clamp(360px, 340px + 5.3vw, 416px);
   background-image: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
   border-radius: clamp(15px, 9.85px + 1.4vw, 30px);
-  padding: clamp(24px, 21.25px + 0.75vw, 32px);  
+  padding: clamp(24px, 21.25px + 0.75vw, 32px);
 }
 
 .star-img-wrapper {
-  width: clamp(40px, 37.25px + 0.75vw, 48px);
-  height: clamp(40px, 37.25px + 0.75vw, 48px);
+  width: clamp(2.5rem, 2.3rem + 0.75vw, 3rem);
+  height: clamp(2.5rem, 2.3rem + 0.75vw, 3rem);
   background-color: var(--accent--bg-dkblue);
   border-radius: 50%;
   padding: clamp(6.5px, 6px + 0.14vw, 8px) clamp(6px, 5.55px + 0.12vw, 7.25px);
@@ -68,11 +68,11 @@ h1, h2 {
   font-size: clamp(var(--font-sz-step4), 22.6px + 0.375vw, calc(2 * var(--font-sz-step0)));
   line-height: 1.25em;
   color: var(--title-txt);
-  margin-bottom: clamp(10px, 8px + 0.56vw, 16px);
+  margin-bottom: clamp(0.625rem, 0.5rem + 0.56vw, 1rem);
 }
 
 h1 {
-  margin: clamp(16px, 11.1px + 1.32vw, 30px) 0 clamp(10px, 8px + 0.56vw, 16px) 0;
+  margin-top: clamp(1rem, 0.7rem + 1.32vw, 1.875rem);
 }
 
 fieldset {
@@ -80,12 +80,12 @@ fieldset {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 24px 0 clamp(24px, 21.25px + 0.75vw, 32px) 0;
+  margin: 1.5rem 0 clamp(1.5rem, 1.33rem + 0.75vw, 2rem) 0;
 }
 
 .rating-option {
-  width: clamp(42px, 38.75px + 0.85vw, 51px);
-  height: clamp(42px, 38.75px + 0.85vw, 51px);
+  width: clamp(2.625rem, 2.42rem + 0.85vw, 3.1875rem);
+  height: clamp(2.625rem, 2.42rem + 0.85vw, 3.1875rem);
   background-color: var(--accent--bg-dkblue);
   color: var(--rating-txt);
   border-radius: 50%;
@@ -102,7 +102,6 @@ input {
   border-radius: 50%;
   z-index: 1;
   appearance: none;
-  
 }
 
 label {
@@ -133,7 +132,7 @@ input:checked + label {
 
 button {
   width: 100%;
-  height: 45px;
+  height: 2.8125rem;
   background-color: var(--primary-orange);
   border-radius: 22.5px;
   color: var(--title-txt);
@@ -156,7 +155,7 @@ button:hover, button:focus {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 2.8125rem 2.25rem;
+  padding: clamp(36px, 32.76px + 0.85vw, 45px) clamp(24px, 19.8px + 1.13vw, 36px);;
   text-align: center;
   display: none;
 }
@@ -167,13 +166,13 @@ button:hover, button:focus {
 }
 
 .thankyou-img {
-  width: clamp(144px, 138px + 1.7vw, 162px);
-  height: clamp(96px, 92.2px + 1.1vw, 108px);
+  width: clamp(9rem, 8.625rem + 1.7vw, 10.125rem);
+  height: clamp(6rem, 5.76rem + 1.1vw, 6.75rem);
 }
 
 .confirm-selection {
-  width: 193px;
-  height: 32px;
+  width: 12rem;
+  height: 2rem;
   border-radius: 22.5px;
   background-color: var(--accent--bg-dkblue);
   color: var(--primary-orange);
@@ -182,5 +181,5 @@ button:hover, button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: clamp(24px, 21.25px + 0.75vw, 32px) auto;
+  margin: clamp(1.5rem, 1.33rem + 0.75vw, 2rem) auto;
 }

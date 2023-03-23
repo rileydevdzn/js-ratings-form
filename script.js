@@ -1,4 +1,4 @@
-const btn = document.querySelector('#submitbtn');
+const btn = document.querySelector('#submit-btn');
 let thanks = document.querySelector('#thanks');
 const yourRating = document.querySelector('#selected');  
 const radioButtons = document.querySelectorAll('input[name="rating"]');
