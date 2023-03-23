@@ -77,7 +77,7 @@ let selectedRating;
 
 ### Continued development
 
-This was a good project for simple DOM manipulation using JavaScript. It also reinforced choosing semantically accurate HTML elements to optimize the amount of JavaScript needed with a simple, effective solution. I'm continuing to build as many different types of projects as I can to improve my front-end skills. 
+This was a good project for simple DOM manipulation using JavaScript. It also reinforced choosing semantically accurate HTML elements to optimize the amount of JavaScript needed with a simple, effective solution. I implemented what I've learned from responsive design projects so far to create a media query-less design in this project, and I'll continue to iterate, learn, and build more projects to further improve my front-end skills. 
 
 ### Useful resources
 
