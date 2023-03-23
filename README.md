@@ -44,7 +44,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Interactive rating component]()
+- Solution URL: [Interactive rating component](https://rileydevdzn.github.io/ratings-component/)
 
 ## My process
 
