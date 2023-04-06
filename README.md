@@ -8,8 +8,8 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Links](#links)
+  - [The challenge](#the-challenge)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -19,7 +19,9 @@
 
 ## Overview
 
-This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).  
+### Links
+
+- See it in the browser: [Interactive rating component](https://rileydevdzn.github.io/js-ratings-form/)
 
 ### The challenge
 
@@ -42,9 +44,7 @@ Users should be able to:
   <p><em>Active and 'thank you' state designs</em></p>
 </div>
 
-### Links
-
-- Solution URL: [Interactive rating component](https://rileydevdzn.github.io/js-ratings-form/)
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
 ## My process
 
