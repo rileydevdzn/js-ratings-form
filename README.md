@@ -21,7 +21,7 @@
 
 ### Links
 
-- See it in the browser: [Interactive rating component](https://rileydevdzn.github.io/js-ratings-form/)
+- View live page: [Interactive rating component](https://rileydevdzn.github.io/js-ratings-form/)
 
 ### The challenge
 
