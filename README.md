@@ -1,7 +1,9 @@
+# Interactive Customer Feedback Form
+
 <div align="center">
   <img 
     src="./Rating component desktop.png"
-    alt="Interactive rating component, rate your customer service experience out of 5 stars, how did we do?"
+    alt="Interactive rating form, rate your customer service experience out of 5 stars, how did we do?"
     height="350px">
 </div>
 
@@ -21,7 +23,7 @@
 
 ### Links
 
-- View live page: [Interactive rating component](https://rileydevdzn.github.io/js-ratings-form/)
+- View live page: [Interactive rating form](https://rileydevdzn.github.io/js-ratings-form/)
 
 ### The challenge
 
@@ -35,11 +37,11 @@ Users should be able to:
 <div align="center">
   <img
     src="./active-states-sm.jpg"
-    alt="Interactive rating component with hover and active states for ratings and submit button"
+    alt="Interactive rating form with hover and active states for ratings and submit button"
     height="350px">
   <img 
     src="./desktop-thank-you-state-sm.jpg"
-    alt="Thank you message shown after submission of interactive rating component, confirming user-selected rating"
+    alt="Thank you message shown after submission of interactive rating form, confirming user-selected rating"
     height="350px">
   <p><em>Active and 'thank you' state designs</em></p>
 </div>
